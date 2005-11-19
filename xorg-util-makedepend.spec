@@ -1,12 +1,12 @@
 Summary:	makedepend utility
 Summary(pl):	Narzêdzie makedepend
 Name:		xorg-util-makedepend
-Version:	0.99.1
+Version:	0.99.2
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Tools
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/util/makedepend-%{version}.tar.bz2
-# Source0-md5:	59911ed2785b635ea7938508d12732fe
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC2/util/makedepend-%{version}.tar.bz2
+# Source0-md5:	2fbed35fb9e95b84f13534c6e2993c21
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
