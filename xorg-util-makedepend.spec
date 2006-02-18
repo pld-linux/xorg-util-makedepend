@@ -2,9 +2,10 @@ Summary:	makedepend utility
 Summary(pl):	Narzêdzie makedepend
 Name:		xorg-util-makedepend
 Version:	1.0.0
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Development/Tools
+# TODO: drop "-X11R7.0" from src name on upgrade
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/util/makedepend-X11R7.0-%{version}.tar.bz2
 # Source0-md5:	7494c7ff65d8c31ef8db13661487b54c
 URL:		http://xorg.freedesktop.org/
