@@ -23,7 +23,7 @@ makedepend utility.
 Narzêdzie makedepend.
 
 %prep
-%setup -q -n makedepend-X11R7.0-%{version}
+%setup -q -n makedepend-%{version}
 
 %build
 %{__aclocal}
