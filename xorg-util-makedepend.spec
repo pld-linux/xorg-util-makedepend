@@ -17,11 +17,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The makedepend program reads each sourcefile in sequence and parses it
-like a C-preprocessor, processing all #include, #define, #undef,
-#ifdef, #ifndef, #endif, #if, #elif and #else directives so that it
-can correctly tell which #include directives would be used in a
-compilation. Any #include, directives can reference files having other
-#include directives, and parsing will occur in these files as well.
+like a C-preprocessor, processing all "#include", "#define", "#undef",
+"#ifdef", "#ifndef", "#endif", "#if", "#elif" and "#else" directives
+so that it can correctly tell which #include directives would be used
+in a compilation. Any "#include", directives can reference files
+having other "#include" directives, and parsing will occur in these
+files as well.
 
 Every file that a sourcefile includes, directly or indirectly, is what
 makedepend calls a dependency. These dependencies are then written to
@@ -31,10 +32,11 @@ must be recompiled when a dependency has changed.
 %description -l pl
 Program makedepend czyta po kolei wszystkie pliki ¼ród³owe i analizuje
 je tak, jak robi to preprocesor C, przetwarzaj±c wszystkie dyrektywy
-#include, #define, #undef, #ifdef, #ifndef, #endif, #if, #elif aby móc
-stwierdziæ, które dyrektywy #include bêd± u¿yte podczas kompilacji.
-Ka¿da dyrektywa #include mo¿e odnosiæ siê do plików maj±cych kolejne
-dyrektywy #include, a wtedy te pliki bêd± tak¿e przeanalizowane.
+"#include", "#define", "#undef", "#ifdef", "#ifndef", "#endif", "#if",
+"#elif" aby móc stwierdziæ, które dyrektywy "#include" bêd± u¿yte
+podczas kompilacji. Ka¿da dyrektywa "#include" mo¿e odnosiæ siê do
+plików maj±cych kolejne dyrektywy "#include", a wtedy te pliki bêd±
+tak¿e przeanalizowane.
 
 Ka¿dy plik do³±czany przez plik ¼ród³owy, bezpo¶rednio lub po¶rednio,
 jest nazywany przez makedepend zale¿no¶ci±. Zale¿no¶ci te s±
