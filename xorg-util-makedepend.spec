@@ -1,5 +1,5 @@
 Summary:	makedepend utility - create dependencies in makefiles
-Summary(pl):	Narzêdzie makedepend - tworzenie zale¿no¶ci w makefile'ach
+Summary(pl.UTF-8):   NarzÄ™dzie makedepend - tworzenie zaleÅ¼noÅ›ci w makefile'ach
 Name:		xorg-util-makedepend
 Version:	1.0.0
 Release:	1
@@ -29,20 +29,20 @@ makedepend calls a dependency. These dependencies are then written to
 a makefile in such a way that make will know which object files
 must be recompiled when a dependency has changed.
 
-%description -l pl
-Program makedepend czyta po kolei wszystkie pliki ¼ród³owe i analizuje
-je tak, jak robi to preprocesor C, przetwarzaj±c wszystkie dyrektywy
+%description -l pl.UTF-8
+Program makedepend czyta po kolei wszystkie pliki ÅºrÃ³dÅ‚owe i analizuje
+je tak, jak robi to preprocesor C, przetwarzajÄ…c wszystkie dyrektywy
 "#include", "#define", "#undef", "#ifdef", "#ifndef", "#endif", "#if",
-"#elif" aby móc stwierdziæ, które dyrektywy "#include" bêd± u¿yte
-podczas kompilacji. Ka¿da dyrektywa "#include" mo¿e odnosiæ siê do
-plików maj±cych kolejne dyrektywy "#include", a wtedy te pliki bêd±
-tak¿e przeanalizowane.
+"#elif" aby mÃ³c stwierdziÄ‡, ktÃ³re dyrektywy "#include" bÄ™dÄ… uÅ¼yte
+podczas kompilacji. KaÅ¼da dyrektywa "#include" moÅ¼e odnosiÄ‡ siÄ™ do
+plikÃ³w majÄ…cych kolejne dyrektywy "#include", a wtedy te pliki bÄ™dÄ…
+takÅ¼e przeanalizowane.
 
-Ka¿dy plik do³±czany przez plik ¼ród³owy, bezpo¶rednio lub po¶rednio,
-jest nazywany przez makedepend zale¿no¶ci±. Zale¿no¶ci te s±
-dopisywane do pliku makefile w taki sposób, aby program make wiedzia³,
-które pliki wynikowe musz± byæ przekompilowane w przypadku zmiany
-której¶ zale¿no¶ci.
+KaÅ¼dy plik doÅ‚Ä…czany przez plik ÅºrÃ³dÅ‚owy, bezpoÅ›rednio lub poÅ›rednio,
+jest nazywany przez makedepend zaleÅ¼noÅ›ciÄ…. ZaleÅ¼noÅ›ci te sÄ…
+dopisywane do pliku makefile w taki sposÃ³b, aby program make wiedziaÅ‚,
+ktÃ³re pliki wynikowe muszÄ… byÄ‡ przekompilowane w przypadku zmiany
+ktÃ³rejÅ› zaleÅ¼noÅ›ci.
 
 %prep
 %setup -q -n makedepend-%{version}
