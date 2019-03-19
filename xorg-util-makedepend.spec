@@ -1,13 +1,13 @@
 Summary:	makedepend utility - create dependencies in makefiles
 Summary(pl.UTF-8):	Narzędzie makedepend - tworzenie zależności w makefile'ach
 Name:		xorg-util-makedepend
-Version:	1.0.5
-Release:	2
+Version:	1.0.6
+Release:	1
 License:	MIT
 Group:		X11/Development/Tools
-Source0:	http://xorg.freedesktop.org/releases/individual/util/makedepend-%{version}.tar.bz2
-# Source0-md5:	0475638eb40a3920d0d3f14482c924a4
-URL:		http://xorg.freedesktop.org/
+Source0:	https://xorg.freedesktop.org/releases/individual/util/makedepend-%{version}.tar.bz2
+# Source0-md5:	b2ca7f2f21f1c04a88b6a254c19c9b68
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
@@ -67,6 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog
+%doc AUTHORS COPYING ChangeLog README.md
 %attr(755,root,root) %{_bindir}/makedepend
 %{_mandir}/man1/makedepend.1*
